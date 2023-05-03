@@ -1,9 +1,8 @@
-﻿using MovieSystem_MVC_API.Data;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace MovieSystem_MVC_API.Models
+namespace MovieSystem_Minimal_Api.Models
 {
-    public class Movie : IEntity
+    public class Movie
     {
         public int Id { get; set; } 
 
