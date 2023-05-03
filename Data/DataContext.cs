@@ -14,7 +14,7 @@ namespace MovieSystem_Minimal_Api.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DN1L0S-D4TR;Database=MovieSystem-Minimal-Api.Models;Trusted_Connection=True;MultipleActiveResultSets=true");
+            optionsBuilder.UseSqlServer("Server=DN1L0S-D4TR;Database=MovieSystemMiniDb.Models;Trusted_Connection=True;MultipleActiveResultSets=true");
         }
     }
 }
